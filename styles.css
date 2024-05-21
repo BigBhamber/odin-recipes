@@ -1,0 +1,36 @@
+
+body{
+    font-family:  Calibri,sans-serif ;
+    text-align: center;
+    background-color: paleturquoise;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: plum;
+    
+}
+#goku{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 25%;
+    
+}
+.wrapper{
+    display: inline-block;
+}
+ul{
+    color: purple;
+    font-size: 25px;
+    
+}
+li{
+    margin-bottom: 90px;
+    color: blueviolet;
+    font-size: 35px;
+    list-style-type:disc;
+    text-align: left;
+
+}
