@@ -2,12 +2,14 @@
 body{
     font-family:  Calibri,sans-serif ;
     text-align: center;
-    background-color: paleturquoise;
+    background-color: whitesmoke;
 }
 h1{
     font-size: 100px;
     font-weight: bold;
     color: plum;
+    
+    margin: 0px;
     
 }
 #goku{
@@ -16,22 +18,38 @@ h1{
     margin-right: auto;
     width: auto;
     height: 25%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: 5px;
     
 }
 
 #recipe_link{
     
-    color: purple;
     font-size: 25px;
     display: flex;
     list-style: none;
     justify-content: center;
+    background-color: plum;
+
 }
 li{
     
-    border-color: black;
-    padding: 50px;
-    color: blueviolet;
-    font-size: 35px;
+    display: inline;
+    padding: 25px;
+    font-size: 20px;
     text-align: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: white;
+    margin: 15px;
+    border-width: 3px;
+    
+}
+li:hover {
+    background-color: skyblue;
+    
+    
 }
