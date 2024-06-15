@@ -34,7 +34,7 @@ h1{
     background-color: plum;
 
 }
-li{
+.wrapper li{
     
     display: inline;
     padding: 25px;
